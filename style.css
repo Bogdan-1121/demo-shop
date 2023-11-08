@@ -1,0 +1,381 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Roboto";
+  background-image: url(./img/patt.png);
+}
+
+header {
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+sub {
+  vertical-align: super;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 100%;
+  height: 100px;
+}
+
+.grid-pos {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 30px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
+.logo,
+.dropdown-list,
+.content-item,
+.search,
+.basket,
+.slider,
+.devise-filter,
+.devise-list-name,
+.devise-list,
+.list-column {
+  display: grid;
+}
+
+.font-size {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Roboto";
+}
+
+.menu {
+  height: 100px;
+  align-items: center;
+}
+
+.logo {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.logo-img {
+  width: 100%;
+}
+
+.dropdown-list {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-auto-flow: column;
+  width: 570px;
+}
+
+.dropdown-item {
+  width: 146px;
+  border-left: 1px solid black;
+}
+
+.dropdown-item:last-child {
+  border-right: 1px solid black;
+}
+
+.dropbtn {
+  width: 146px;
+  height: 50px;
+  padding: 0;
+  color: #2c71b8;
+  border: none;
+  cursor: pointer;
+  list-style: none;
+  background-color: transparent;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.content-item {
+  width: 285px;
+  height: 40px;
+  align-items: center;
+  color: white;
+  background-color: #2c71b8;
+  padding-left: 45px;
+}
+
+.search {
+  grid-column-start: 10;
+  grid-column-end: 12;
+  grid-auto-flow: column;
+  width: 200px;
+  height: 40px;
+  border: 1px solid #2c71b8;
+  margin-left: 20px;
+}
+
+.search-term {
+  width: 100%;
+  border: none;
+  padding: 0 0 0 15px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.search-button {
+  width: 30px;
+  height: 29px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  padding: 0;
+  background-color: #2c71b8;
+}
+
+.search-button-img {
+  margin-top: 2px;
+}
+
+.basket {
+  grid-column-start: 12;
+  grid-column-end: 13;
+  justify-content: end;
+}
+
+.basket-bg {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  background-color: white;
+}
+
+.basket-img {
+  width: 20px;
+  height: 20px;
+}
+
+.slider {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  height: 400px;
+  background-color: aqua;
+}
+
+.devise-filter {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 270px;
+  height: 840px;
+  margin-top: -30px;
+  padding: 0 30px 30px 30px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.devise-list-name {
+  grid-column-start: 4;
+  grid-column-end: 13;
+  grid-row-start: 2;
+  width: 100%;
+  height: 160px;
+  margin-top: -30px;
+}
+
+.devise-list {
+  grid-column-start: 4;
+  grid-column-end: 13;
+  grid-row-start: 2;
+  width: 870px;
+  margin-top: 130px;
+}
+
+.list-column {
+  grid-auto-flow: column;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.list-item {
+  width: 270px;
+  height: 650px;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+}
+
+.devise-type,
+.color,
+.ram {
+  line-height: 35px;
+}
+
+.devise-type {
+  margin-top: 30px;
+}
+
+.color,
+.ram {
+  margin-top: 60px;
+}
+
+.filter-opt {
+  margin: 25px 0 30px 0;
+  color: white;
+}
+
+.filter-btn {
+  width: 210px;
+  height: 50px;
+  color: white;
+  background-color: #2c71b8;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.item-img {
+  width: 100%;
+  height: 180px;
+  background-color: aquamarine;
+}
+
+.more-details-btn,
+.add-to-btn {
+  width: 210px;
+  height: 50px;
+  margin: 0 30px 15px 30px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.more-details-btn {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.add-to-btn {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+}
+
+.device-logo {
+  display: grid;
+  width: 100%;
+  height: 180px;
+  background-color: rgba(255, 255, 255, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.devise-description {
+  padding: 15px;
+}
+
+.devise-name {
+  font-size: 35px;
+}
+
+.cart-content {
+  font-size: 18px;
+  padding: 15px 0 15px 0;
+}
+
+.devise-type-h {
+  font-size: 20px;
+}
+
+.divise-ptise {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+}
+
+.type-h-span {
+  font-weight: bold;
+}
+
+.footer-teg {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: #2c71b8;
+}
+
+.sort {
+  display: flex;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  margin: 0;
+  justify-content: end;
+}
+
+.sort-by {
+  width: 270px;
+  height: 40px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.list-name-h2 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Roboto";
+  padding-top: 20px;
+}
+
+.list-name-h1 {
+  font-size: 40px;
+  color: white;
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.sort-item {
+  background-color: transparent;
+  color: black;
+}
+
+.load-more {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+
+.dropdown-item:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item:hover .dropbtn {
+  color: white;
+  background-color: #2c71b8;
+}
+
+.content-item:hover {
+  background-color: white;
+  color: #2c71b8;
+}

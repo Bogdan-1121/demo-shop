@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Demo-Shop</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-inner">
+          <nav class="menu grid-pos">
+            <a href="#" class="logo">
+              <img src="./img/logo.png" alt="logo" class="logo-img" />
+            </a>
+            <div class="dropdown-list">
+              <div class="dropdown-item">
+                <button class="dropbtn font-size">Home</button>
+                <div class="dropdown-content">
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                </div>
+              </div>
+              <div class="dropdown-item">
+                <button class="dropbtn font-size">Products</button>
+                <div class="dropdown-content">
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                </div>
+              </div>
+              <div class="dropdown-item">
+                <button class="dropbtn font-size">Payment</button>
+                <div class="dropdown-content">
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                </div>
+              </div>
+              <div class="dropdown-item">
+                <button class="dropbtn font-size">Shipping</button>
+                <div class="dropdown-content">
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                  <a class="content-item" href="#">Lorem, ipsum dolor.</a>
+                </div>
+              </div>
+            </div>
+            <form class="search">
+              <input
+                type="text"
+                class="search-term font-size"
+                placeholder="Search"
+              />
+              <form class="search-form">
+                <button type="submit" class="search-button">
+                  <img
+                    src="img/white-search.png"
+                    alt="search-button"
+                    class="search-button-img"
+                  />
+                </button>
+              </form>
+            </form>
+            <a href="#" class="basket">
+              <div class="basket-bg">
+                <img src="img/basket.png" alt="basket" class="basket-img" />
+              </div>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="grid-pos">
+          <div class="slider"></div>
+          <div class="devise-filter">
+            <div class="devise-type">
+              <h2 class="filter-teg">Device Type</h2>
+              <input type="checkbox" id="box-LapTop" class="filter-input" />
+              <label for="box-LapTop">LapTop</label>
+              <br />
+              <input type="checkbox" id="box-Table" class="filter-input" />
+              <label for="box-Table">Table</label>
+            </div>
+            <div class="color">
+              <h2 class="filter-teg">Color</h2>
+              <input type="checkbox" id="box-Black" class="filter-input" />
+              <label for="box-Black">Black</label>
+              <br />
+              <input type="checkbox" id="box-Red" class="filter-input" />
+              <label for="box-Red">Red</label>
+              <br />
+              <input type="checkbox" id="box-Green" class="filter-input" />
+              <label for="box-Green">Green</label>
+              <br />
+              <input type="checkbox" id="box-Blue" class="filter-input" />
+              <label for="box-Blue">Blue</label>
+              <br />
+              <input type="checkbox" id="box-Orange" class="filter-input" />
+              <label for="box-Orange">Orange</label>
+            </div>
+            <div class="ram">
+              <h2 class="filter-teg">Ram</h2>
+              <input type="checkbox" id="box-1GB" class="filter-input" />
+              <label for="box-1GB">1GB</label>
+              <br />
+              <input type="checkbox" id="box-2GB" class="filter-input" />
+              <label for="box-2GB">2GB</label>
+              <br />
+              <input type="checkbox" id="box-4GB" class="filter-input" />
+              <label for="box-4GB">4GB</label>
+              <br />
+              <input type="checkbox" id="box-6GB" class="filter-input" />
+              <label for="box-6GB">6GB</label>
+              <br />
+              <input type="checkbox" id="box-8GB" class="filter-input" />
+              <label for="box-8GB">8GB</label>
+            </div>
+            <a href="#" class="filter-opt">
+              <h2>Show more options...</h2>
+            </a>
+            <button class="filter-btn">Submit</button>
+          </div>
+          <div class="devise-list-name">
+            <h2 class="list-name-h2">
+              Home page > Products > Laptop and Tablets
+            </h2>
+            <h1 class="list-name-h1">Laptop and Tablets</h1>
+            <div class="sort">
+              <select name="sort-by" class="sort-by">
+                <option value="1" class="sort-item">Sort by name</option>
+                <option value="2" class="sort-item">Sort by date</option>
+                <option value="3" class="sort-item">Sort by popularity</option>
+              </select>
+            </div>
+          </div>
+          <div class="devise-list">
+            <div class="list-column">
+              <div class="list-item">
+                <div class="device-logo">
+                  <img src="./img/laptop.png" alt="logo" />
+                </div>
+                <div class="devise-description">
+                  <h2 class="devise-name">#1 Divice name</h2>
+                  <h3 class="cart-content">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Neque alias nisi incidunt libero assumenda quae, cupiditate
+                  </h3>
+                  <h3 class="devise-type-h">
+                    <span class="type-h-span"> TYPE: </span> Laptop <br /><br />
+                    <span class="type-h-span"> SCREEN SIZE: </span> 7 inches
+                    <br /><br />
+                    <span class="type-h-span"> RAM: </span>1GB<br /><br />
+                  </h3>
+                  <h2 class="divise-ptise">$999<sub>99</sub></h2>
+                </div>
+                <button class="more-details-btn" type="button">
+                  More Details
+                </button>
+                <br />
+                <button class="add-to-btn" type="button">
+                  Add to Cart <img src="./img/white-basket.png" alt="basket" />
+                </button>
+              </div>
+              <div class="list-item">
+                <div class="device-logo">
+                  <img src="./img/mobile.png" alt="logo" />
+                </div>
+                <div class="devise-description">
+                  <h2 class="devise-name">#2 Divice name</h2>
+                  <h3 class="cart-content">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Neque alias nisi incidunt libero assumenda quae, cupiditate
+                  </h3>
+                  <h3 class="devise-type-h">
+                    <span class="type-h-span"> TYPE: </span> Laptop <br /><br />
+                    <span class="type-h-span"> SCREEN SIZE: </span> 7 inches
+                    <br /><br />
+                    <span class="type-h-span"> RAM: </span>2GB<br /><br />
+                  </h3>
+                  <h2 class="divise-ptise">$1999<sub>99</sub></h2>
+                </div>
+                <button class="more-details-btn" type="button">
+                  More Details
+                </button>
+                <br />
+                <button class="add-to-btn" type="button">
+                  Add to Cart <img src="./img/white-basket.png" alt="basket" />
+                </button>
+              </div>
+              <div class="list-item">
+                <div class="device-logo">
+                  <img src="./img/mp3.png" alt="logo" />
+                </div>
+                <div class="devise-description">
+                  <h2 class="devise-name">#1 Divice name</h2>
+                  <h3 class="cart-content">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Neque alias nisi incidunt libero assumenda quae, cupiditate
+                  </h3>
+                  <h3 class="devise-type-h">
+                    <span class="type-h-span"> TYPE: </span> Laptop <br /><br />
+                    <span class="type-h-span"> SCREEN SIZE: </span> 7 inches
+                    <br /><br />
+                    <span class="type-h-span"> RAM: </span>3GB<br /><br />
+                  </h3>
+                  <h2 class="divise-ptise">$2999 <sub>99</sub></h2>
+                </div>
+                <button class="more-details-btn" type="button">
+                  More Details
+                </button>
+                <br />
+                <button class="add-to-btn" type="button">
+                  Add to Cart <img src="./img/white-basket.png" alt="basket" />
+                </button>
+              </div>
+            </div>
+
+            <div class="list-column">
+              <div class="list-item">
+                <div class="device-logo">
+                  <img src="./img/pc.png" alt="logo" />
+                </div>
+                <div class="devise-description">
+                  <h2 class="devise-name">#1 Divice name</h2>
+                  <h3 class="cart-content">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Neque alias nisi incidunt libero assumenda quae, cupiditate
+                  </h3>
+                  <h3 class="devise-type-h">
+                    <span class="type-h-span"> TYPE: </span> Laptop <br /><br />
+                    <span class="type-h-span"> SCREEN SIZE: </span> 7 inches
+                    <br /><br />
+                    <span class="type-h-span"> RAM: </span>4GB<br /><br />
+                  </h3>
+                  <h2 class="divise-ptise">$3999 <sub>99</sub></h2>
+                </div>
+                <button class="more-details-btn" type="button">
+                  More Details
+                </button>
+                <br />
+                <button class="add-to-btn" type="button">
+                  Add to Cart <img src="./img/white-basket.png" alt="basket" />
+                </button>
+              </div>
+              <div class="list-item">
+                <div class="device-logo">
+                  <img src="./img/tablet.png" alt="logo" />
+                </div>
+                <div class="devise-description">
+                  <h2 class="devise-name">#1 Divice name</h2>
+                  <h3 class="cart-content">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Neque alias nisi incidunt libero assumenda quae, cupiditate
+                  </h3>
+                  <h3 class="devise-type-h">
+                    <span class="type-h-span"> TYPE: </span> Laptop <br /><br />
+                    <span class="type-h-span"> SCREEN SIZE: </span> 7 inches
+                    <br /><br />
+                    <span class="type-h-span"> RAM: </span>5GB<br /><br />
+                  </h3>
+                  <h2 class="divise-ptise">$4999 <sub>99</sub></h2>
+                </div>
+                <button class="more-details-btn" type="button">
+                  More Details
+                </button>
+                <br />
+                <button class="add-to-btn" type="button">
+                  Add to Cart <img src="./img/white-basket.png" alt="basket" />
+                </button>
+              </div>
+              <div class="list-item">
+                <div class="device-logo">
+                  <img src="./img/watch.png" alt="logo" />
+                </div>
+                <div class="devise-description">
+                  <h2 class="devise-name">#1 Divice name</h2>
+                  <h3 class="cart-content">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Neque alias nisi incidunt libero assumenda quae, cupiditate
+                  </h3>
+                  <h3 class="devise-type-h">
+                    <span class="type-h-span"> TYPE: </span> Laptop <br /><br />
+                    <span class="type-h-span"> SCREEN SIZE: </span> 7 inches
+                    <br /><br />
+                    <span class="type-h-span"> RAM: </span>6GB<br /><br />
+                  </h3>
+                  <h2 class="divise-ptise">$5999 <sub>99</sub></h2>
+                </div>
+                <button class="more-details-btn" type="button">
+                  More Details
+                </button>
+                <br />
+                <button class="add-to-btn" type="button">
+                  Add to Cart <img src="./img/white-basket.png" alt="basket" />
+                </button>
+              </div>
+            </div>
+            <div class="list-column">
+              <div class="list-item">
+                <div class="device-logo">
+                  <img src="./img/tw.png" alt="logo" />
+                </div>
+                <div class="devise-description">
+                  <h2 class="devise-name">#1 Divice name</h2>
+                  <h3 class="cart-content">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Neque alias nisi incidunt libero assumenda quae, cupiditate
+                  </h3>
+                  <h3 class="devise-type-h">
+                    <span class="type-h-span"> TYPE: </span> Laptop <br /><br />
+                    <span class="type-h-span"> SCREEN SIZE: </span> 7 inches
+                    <br /><br />
+                    <span class="type-h-span"> RAM: </span>7GB<br /><br />
+                  </h3>
+                  <h2 class="divise-ptise">$6999 <sub>99</sub></h2>
+                </div>
+                <button class="more-details-btn" type="button">
+                  More Details
+                </button>
+                <br />
+                <button class="add-to-btn" type="button">
+                  Add to Cart <img src="./img/white-basket.png" alt="basket" />
+                </button>
+              </div>
+              <div class="list-item">
+                <div class="device-logo">
+                  <img src="./img/mobile.png" alt="logo" />
+                </div>
+                <div class="devise-description">
+                  <h2 class="devise-name">#1 Divice name</h2>
+                  <h3 class="cart-content">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Neque alias nisi incidunt libero assumenda quae, cupiditate
+                  </h3>
+                  <h3 class="devise-type-h">
+                    <span class="type-h-span"> TYPE: </span> Laptop <br /><br />
+                    <span class="type-h-span"> SCREEN SIZE: </span> 7 inches
+                    <br /><br />
+                    <span class="type-h-span"> RAM: </span>8GB<br /><br />
+                  </h3>
+                  <h2 class="divise-ptise">$7999 <sub>99</sub></h2>
+                </div>
+                <button class="more-details-btn" type="button">
+                  More Details
+                </button>
+                <br />
+                <button class="add-to-btn" type="button">
+                  Add to Cart <img src="./img/white-basket.png" alt="basket" />
+                </button>
+              </div>
+              <div class="list-item">
+                <div class="device-logo">
+                  <img src="./img/laptop.png" alt="logo" />
+                </div>
+                <div class="devise-description">
+                  <h2 class="devise-name">#1 Divice name</h2>
+                  <h3 class="cart-content">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Neque alias nisi incidunt libero assumenda quae, cupiditate
+                  </h3>
+                  <h3 class="devise-type-h">
+                    <span class="type-h-span"> TYPE: </span> Laptop <br /><br />
+                    <span class="type-h-span"> SCREEN SIZE: </span> 7 inches
+                    <br /><br />
+                    <span class="type-h-span"> RAM: </span>9GB<br /><br />
+                  </h3>
+                  <h2 class="divise-ptise">$8999 <sub>99</sub></h2>
+                </div>
+                <button class="more-details-btn" type="button">
+                  More Details
+                </button>
+                <br />
+                <button class="add-to-btn" type="button">
+                  Add to Cart <img src="./img/white-basket.png" alt="basket" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="load-more">Load more...</a>
+    </main>
+    <footer>
+      <div class="container">
+        <h2 class="footer-teg">@ Copyright 2023</h2>
+      </div>
+    </footer>
+  </body>
+</html>
